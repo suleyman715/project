@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+
+}
+li{
+
+font-family: Ubuntu ;
+font-size: 16px;
+font-weight: 700;
+line-height: 25.6px;
+display: flex;
+align-items: center;
+
+
+
+}
+ header{
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .iphone{
+    margin-left: 45px;
+ }
