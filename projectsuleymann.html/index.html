@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -42,7 +45,7 @@
 
     <section class="hero">
         <div class="container">
-            <h1>CREATEX<br>
+            <h1 class="createx">CREATE<span class="x">X</span><br>
                      CONSTRUCTION</h1>
             <p class="text">Cras ultrices leo vitae non viverra. Fringilla nisi quisque<br> consequat, dignissim vitae proin ipsum sed. Pellentesque nec<br> turpis purus eget pellentesque integer ipsum elementum felis.
             
@@ -116,18 +119,28 @@
 
 
         </div>
+        <div class="form_block">
+            <h3 class="know_description">Want to know more? Ask us a question:</h3>
+            <div class="know_all"> 
+                <form action="#" class="know">
+                    <label class="block"><span class="name">Name</span>
+                        <input class="form_name" type="text" placeholder="Your name">
 
-        <form action="#" class="know_form">
-            <h2 class="know_form_description">Want to know more? Ask us a question:</h2>
-            <div class="know_form_all">
+                    </label>
 
+                    <label class="block"><span class="phone">Phone</span>
+                        <input class="form_phone" type="text" placeholder="Your phone">
 
-                
+                    </label>
+
+                    <label class="block_3"><span class="Message">Message</span>
+                        <input class="form_message" type="text" placeholder="Your message">
+
+                    </label>
+                    <button class="button" type="submit">SEND</button>    
+                </form>
             </div>
-
-
-
-        </form>
+        </div>
 
 
         </div>

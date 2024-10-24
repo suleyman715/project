@@ -3,6 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+.ubuntu-light {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+ }
+ 
+ .ubuntu-regular {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+ .ubuntu-medium {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+ }
+ 
+ .ubuntu-bold {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+ }
+ 
+ .ubuntu-light-italic {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 300;
+   font-style: italic;
+ }
+ 
+ .ubuntu-regular-italic {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+ }
+ 
+ .ubuntu-medium-italic {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 500;
+   font-style: italic;
+ }
+ 
+ .ubuntu-bold-italic {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 700;
+   font-style: italic;
+ }
+ 
 
 .allul{
     list-style: none;
@@ -50,6 +98,12 @@ flex-direction: row;
  }
  .head_text{
     color: black;
+ }
+ .x{
+   color: #FF5A30;
+ }
+ .createx{
+   margin-top: 220px;
  }
 
 
@@ -188,6 +242,10 @@ color: white;
    left: 32px;
 }
 
+.ourcorevalues{
+   margin-bottom: 120px;
+}
+
 
 
 
@@ -226,7 +284,6 @@ color: white;
 }
 
 .ourcorevalues_li:nth-child(2) {
-   
    border: 1px solid gray;
    border-bottom: none;
    border-top: none;
@@ -241,4 +298,55 @@ color: white;
    display: flex;
    flex-direction: row;
    
+}
+.form_block{
+   padding: 48px 60px;
+}
+.know{
+   display: flex;
+   flex-direction: row;
+   gap: 24px;
+   align-items: flex-end;
+   
+}
+
+
+.know_description{
+   margin: 0 0 30px;
+   font-size: 28px;
+   text-align: center;
+   color: black;
+}
+
+
+.block{
+   display: flex;
+   flex-direction: column;
+   width: 260px;
+   gap: 8px;
+
+}
+.block_3{
+   display: flex;
+   flex-direction: column;
+   width: 414px;
+}
+
+
+.button{
+width: 104px;
+top: 2681px;
+left: 1411px;
+padding: 0px 32px 0px 32px;
+gap: 10px;
+background: #FF5A30;
+color: white;
+border: none;
+border-radius: 4px;
+
+
+}
+.know input,
+.know button{
+   height: 44px;
 }
